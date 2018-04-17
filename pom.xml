@@ -63,9 +63,10 @@
 	<configuration>
 		<url>http://localhost:8080/manager/text</url>
 		<server>localhost</server>
-		<path>/MyWebapp</path>
+		<path>/deploy</path>
 		<contextReloadable>true</contextReloadable>
 		<username>tomcat</username>
+		<update>true</update>
         <password>tomcat</password>
 	</configuration>
 </plugin>
